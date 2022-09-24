@@ -1,0 +1,173 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.37f1c1 (9f30be21c416) revision 10432702'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Enterprise' Language: 'zh' Physical Memory: 8101 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\unity\editer\2020.3.37f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/unity/project/UNITY3
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+8967
+Successfully changed project path to: D:/unity/project/UNITY3
+D:/unity/project/UNITY3
+Using Asset Import Pipeline V2.
+AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 295.93 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.37f1c1 (9f30be21c416)
+[Subsystems] Discovering subsystems at path D:/unity/editer/2020.3.37f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity/project/UNITY3/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX150 (ID=0x1d12)
+    Vendor:   
+    VRAM:     1983 MB
+    Driver:   25.21.14.1735
+Initialize mono
+Mono path[0] = 'D:/unity/editer/2020.3.37f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/editer/2020.3.37f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/unity/editer/2020.3.37f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/editer/2020.3.37f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002825 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 205.82 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.737 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1738ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1371ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (443ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (574ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (206ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008297 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 203.55 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.434 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3436ms)
+		BeginReloadAssembly (427ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (2835ms)
+			LoadAssemblies (276ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (949ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (198ms)
+			SetupLoadedEditorAssemblies (1153ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (204ms)
+				BeforeProcessingInitializeOnLoad (301ms)
+				ProcessInitializeOnLoadAttributes (590ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 2.04 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3492 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.6 MB.
+System memory in use after: 150.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3923.
+Total: 7.513800 ms (FindLiveObjects: 0.450000 ms CreateObjectMapping: 0.388000 ms MarkObjects: 6.503600 ms  DeleteObjects: 0.170200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/slash5-HungNguyen/slash 5 visual vfx profiles/slash-white-green bolder.vfx
+  artifactKey: Guid(5581c12b77b52da4ea01ef720f51006f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/slash5-HungNguyen/slash 5 visual vfx profiles/slash-white-green bolder.vfx using Guid(5581c12b77b52da4ea01ef720f51006f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5298bf33fcc6f570053fe3802027c6') in 0.113754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.852566 seconds.
+  path: Assets/slash5-HungNguyen/slash 5 visual vfx profiles/slash-white-red bolder.vfx
+  artifactKey: Guid(b28130f36ca99cc4e8dfa30ab1dfdae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/slash5-HungNguyen/slash 5 visual vfx profiles/slash-white-red bolder.vfx using Guid(b28130f36ca99cc4e8dfa30ab1dfdae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de059a81ada4d9e28b9e584da0af0d7') in 0.011227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 122.805286 seconds.
+  path: Assets/slash5-HungNguyen/New VFX.vfx
+  artifactKey: Guid(ef3fe70250d72764c8d97bded604c707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/slash5-HungNguyen/New VFX.vfx using Guid(ef3fe70250d72764c8d97bded604c707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734a0c79cba7c368d0dcc89935283bf8') in 0.015969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.153605 seconds.
+  path: Assets/slash5-HungNguyen
+  artifactKey: Guid(fa5e551b1b3b51f4ab6b607936d143b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/slash5-HungNguyen using Guid(fa5e551b1b3b51f4ab6b607936d143b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06097ca134636f7390cddc0dc88a280') in 0.011364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.407025 seconds.
+  path: Assets/slash5-HungNguyen/slash 5 visual vfx profiles
+  artifactKey: Guid(8d9e381be2de17345bbad429bba94afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/slash5-HungNguyen/slash 5 visual vfx profiles using Guid(8d9e381be2de17345bbad429bba94afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326bb28334e0b088e3d850d5b5170913') in 0.012176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.610005 seconds.
+  path: Assets/slash5-HungNguyen/slash 5 visual vfx profiles/fff.vfx
+  artifactKey: Guid(b03cccfe4b9c24a4fb23c0575dbf8e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/slash5-HungNguyen/slash 5 visual vfx profiles/fff.vfx using Guid(b03cccfe4b9c24a4fb23c0575dbf8e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c72c832564a0df6e7e6aafa9dd16a1') in 0.014051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.262890 seconds.
+  path: Assets/slash5-HungNguyen/slash 5 visual vfx profiles/slash-white-black bolder.vfx
+  artifactKey: Guid(0f901513bda8d474cbf7d961decd7a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/slash5-HungNguyen/slash 5 visual vfx profiles/slash-white-black bolder.vfx using Guid(0f901513bda8d474cbf7d961decd7a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd972e75ad29796eb628cee2767db3d12') in 0.011599 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
